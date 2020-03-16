@@ -1,0 +1,18 @@
+<div class="box"><table>
+    <tr>
+        <td>index</td>
+        <td>name</td>
+        <td>lastname</td>
+        <td>ID</td>
+        <td>status</td>
+    </tr>
+    <tr *ngFor="let masive of masive ; let Myindex = index" class="foor">
+        <td>{{Myindex}}</td>        
+        <td>{{masive.name}}</td>
+        <td>{{masive.lastname}}</td>
+        <td>{{masive.id}}</td>
+        <td>{{masive.status}}</td>
+    </tr>
+
+</table>
+</div>
