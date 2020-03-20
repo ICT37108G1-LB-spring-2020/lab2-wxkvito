@@ -14,7 +14,7 @@ export class TableComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.masive = [
+    this.students = [
       {name:'dato',
       lastname:'seiranovi',
       status:'student',
