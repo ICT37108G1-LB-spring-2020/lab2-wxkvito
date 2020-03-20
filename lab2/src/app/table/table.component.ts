@@ -8,7 +8,7 @@ import {MatTableDataSource} from '@angular/material/table';
   styleUrls: ['./table.component.css']
 })
 export class TableComponent implements OnInit {
-  masive = []
+  students = []
 
 
   constructor() { }
